@@ -1,0 +1,46 @@
+# A Social Ninja Collab Model - GenAI
+
+## Project Overview
+This project aims to create a revolutionary query-to-prompt-to-text-to-video response system using a Large Language Model (LLM). The goal is to provide a highly accurate and engaging response system that can generate informative video content from text queries.
+
+## Directory Structure
+- **data/**: Contains raw and processed data.
+- **src/**: Source code for data preprocessing, model training, text generation, and video generation.
+- **notebooks/**: Jupyter notebooks for exploration and experimentation.
+- **models/**: Trained models and checkpoints.
+- **scripts/**: Shell scripts to automate the process.
+- **requirements.txt**: Project dependencies.
+- **README.md**: Project documentation.
+
+## Setup
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/SocialNinjaMaster/a-social-ninja-collab-model-genai.git
+    cd a-social-ninja-collab-model-genai
+    ```
+
+2. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Run the data preprocessing script:
+    ```sh
+    bash scripts/run_preprocessing.sh
+    ```
+
+4. Train the model:
+    ```sh
+    bash scripts/run_training.sh
+    ```
+
+5. Generate text to video:
+    ```sh
+    bash scripts/run_text_to_video.sh
+    ```
+
+## Contributing
+Feel free to fork this project, create branches, submit pull requests, and open issues. Contributions are welcome!
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
