@@ -1,1 +1,7 @@
+numpy
+pandas
+transformers
+torch
+opencv-python
+moviepy
 
