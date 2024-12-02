@@ -1,0 +1,24 @@
+a-social-ninja-collab-model-genai/
+├── data/
+│   ├── raw/
+│   ├── processed/
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── text_generation.py
+│   ├── video_generation.py
+├── notebooks/
+│   ├── data_exploration.ipynb
+│   ├── model_training.ipynb
+│   ├── text_to_video.ipynb
+├── models/
+│   ├── trained_model/
+│   ├── checkpoints/
+├── scripts/
+│   ├── run_preprocessing.sh
+│   ├── run_training.sh
+│   ├── run_text_to_video.sh
+├── requirements.txt
+├── README.md
+├── .gitignore
